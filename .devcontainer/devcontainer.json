@@ -1,0 +1,8 @@
+{
+    "name": "pclamp_electro_physiology_classification",
+    "build": {
+      "dockerfile": "../Dockerfile",
+      "context": ".."
+    },
+    "runArgs": ["--gpus=all", "--shm-size=4g"]
+  }
